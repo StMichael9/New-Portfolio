@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
 import TaskMasterThumbnail from "../assets/TaskMasterThumbnail.jpeg";
-import TensorFinanceAdvisor from "../assets/TensorFinance-Advisor.jpeg";
+import TensorFinanceAdvisor from "../assets/TensorFinanceAdvisor.jpeg";
 const projects = [
   {
     id: 1,
