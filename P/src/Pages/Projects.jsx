@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
 import TaskMasterThumbnail from "../assets/TaskMasterThumbnail.jpeg";
 import TensorFinanceAdvisor from "../assets/TensorFinanceAdvisor.jpeg";
+import WealthMate from "../assets/WealthMate.jpeg";
 const projects = [
   {
     id: 1,
@@ -17,8 +18,8 @@ const projects = [
       "SQLite",
     ],
     repo: "https://github.com/StMichael9/WealthMate",
-    demo: "https://wealthmate.app",
-    cover: "https://placehold.co/600x400?text=WealthMate",
+    // demo: "https://wealthmate.app",
+    cover: WealthMate,
   },
 
   {
