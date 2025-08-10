@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
 import TaskMasterThumbnail from "../assets/TaskMasterThumbnail.jpeg";
+import TensorFinanceAdvisor from "../assets/TensorFinance-Advisor.jpeg";
 const projects = [
   {
     id: 1,
@@ -32,13 +33,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "MacBook Chess Replica",
+    title: "TensorFinance-Advisor",
     description:
-      "3D chess game using Drei & React Three Fiber with Stockfish A.I.",
-    tech: ["React", "Three.js", "Stockfish"],
-    repo: "https://github.com/username/macbook‑chess",
-    demo: "https://chess.stmichael.dev",
-    cover: "https://placehold.co/600x400?text=MacBook+Chess",
+      "TensorFinance Advisor is a machine learning application built with TensorFlow.js that provides personalized financial recommendations based on a user's income.",
+    tech: ["React", "Node.js", "Express.js", "TensorFlow.js"],
+    repo: "https://github.com/StMichael9/TensorFinance-Advisor",
+    demo: "https://tensor-finance-advisor.vercel.app",
+    cover: TensorFinanceAdvisor,
   },
 ];
 
