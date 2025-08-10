@@ -16,7 +16,7 @@ const Home = () => {
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-6">
           I build interactive, high-performance web apps using React, Node.js,
-          Express.js and modern tools.
+          Express.js, TensorFlow.js, and modern tools.
         </p>
 
         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
