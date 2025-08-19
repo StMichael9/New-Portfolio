@@ -26,6 +26,13 @@ const Home = () => {
           >
             View Projects <ArrowRight size={18} />
           </Link>
+
+          <Link
+            to="/resume"
+            className="inline-flex items-center gap-2 bg-cyan-500 text-white px-6 py-3 rounded-2xl shadow-lg hover:bg-cyan-600 transition-all"
+          >
+            View Resume <ArrowRight size={18} />
+          </Link>
         </motion.div>
       </motion.section>
 
