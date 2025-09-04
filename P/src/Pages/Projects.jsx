@@ -11,7 +11,7 @@ const projects = [
     description:
       "Ping Pong Showdown is a fun and interactive game built with JavaScript, HTML, and Tailwind.css.",
     tech: ["JavaScript", "HTML", "CSS", "Tailwind.css"],
-    repo: "https://github.com/StMichael9/WealthMate",
+    repo: "https://github.com/StMichael9/Ping-Pong.JS",
     demo: "https://ping-pong-nine-beta.vercel.app",
     cover: PingPong,
   },
