@@ -3,23 +3,17 @@ import { Github, ExternalLink } from "lucide-react";
 import TaskMasterThumbnail from "../assets/TaskMasterThumbnail.jpeg";
 import TensorFinanceAdvisor from "../assets/TensorFinanceAdvisor.jpeg";
 import WealthMate from "../assets/WealthMate.jpeg";
+import PingPong from "../assets/PingPong.jpeg";
 const projects = [
   {
     id: 1,
-    title: "WealthMate Banking App",
+    title: "Ping Pong Showdown",
     description:
-      "Full‑stack banking platform with JWT auth, Plaid integration, and real‑time charts.",
-    tech: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "Prisma",
-      "Tailwind.css,",
-      "SQLite",
-    ],
+      "Ping Pong Showdown is a fun and interactive game built with JavaScript, HTML, and Tailwind.css.",
+    tech: ["JavaScript", "HTML", "CSS", "Tailwind.css"],
     repo: "https://github.com/StMichael9/WealthMate",
-    // demo: "https://wealthmate.app",
-    cover: WealthMate,
+    demo: "https://ping-pong-nine-beta.vercel.app",
+    cover: PingPong,
   },
 
   {
